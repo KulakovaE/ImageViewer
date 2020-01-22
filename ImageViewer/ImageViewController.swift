@@ -14,6 +14,7 @@ class ImageViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.prefersLargeTitles = true
         
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
@@ -27,8 +28,8 @@ class ImageViewController: UITableViewController {
         }
     }
     
-    override func numberOfSections(in tableView: UITableView) -> Int {
-       return images.count
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return images.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -37,7 +38,11 @@ class ImageViewController: UITableViewController {
         return cell
     }
     
-    
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let vc = storyboard?.instantiateViewController(identifier: "DetailViewController") as? DetailViewController {
+            vc.selectedImage = images[indexPath.row]
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 }
 

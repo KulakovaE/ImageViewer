@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -44,6 +45,35 @@
             </objects>
             <point key="canvasLocation" x="1039.1304347826087" y="-7.3660714285714279"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="DUm-LI-5DK">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pwq-S9-Ndy" customClass="DetailViewController" customModule="ImageViewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sgr-JG-GTI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N88-Eb-mnv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="N88-Eb-mnv" firstAttribute="trailing" secondItem="bmq-Lm-R8i" secondAttribute="trailing" id="8JO-QP-NTk"/>
+                            <constraint firstItem="N88-Eb-mnv" firstAttribute="top" secondItem="Sgr-JG-GTI" secondAttribute="top" id="OG6-LX-ubC"/>
+                            <constraint firstAttribute="bottom" secondItem="N88-Eb-mnv" secondAttribute="bottom" id="b9f-jl-5DW"/>
+                            <constraint firstItem="N88-Eb-mnv" firstAttribute="leading" secondItem="bmq-Lm-R8i" secondAttribute="leading" id="vwh-mV-VqR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bmq-Lm-R8i"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="N88-Eb-mnv" id="coK-dl-T67"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFt-c9-oqo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1686.9565217391305" y="-3.3482142857142856"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="qb7-6H-s97">
             <objects>
@@ -52,6 +82,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ORO-tn-SIl">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
