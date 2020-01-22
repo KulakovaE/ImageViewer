@@ -19,6 +19,18 @@
 		F368046823D8873B0054361A /* Animal_Cat.png in Resources */ = {isa = PBXBuildFile; fileRef = F368046323D8873B0054361A /* Animal_Cat.png */; };
 		F368046923D8873B0054361A /* Animal_Monkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F368046423D8873B0054361A /* Animal_Monkey.jpg */; };
 		F368046B23D891B20054361A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368046A23D891B20054361A /* DetailViewController.swift */; };
+		F368047323D8A4000054361A /* Animal_Maw.png in Resources */ = {isa = PBXBuildFile; fileRef = F368046C23D8A4000054361A /* Animal_Maw.png */; };
+		F368047423D8A4000054361A /* Animal_Kengur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F368046D23D8A4000054361A /* Animal_Kengur.jpg */; };
+		F368047523D8A4000054361A /* Animal_Dinosaurs.png in Resources */ = {isa = PBXBuildFile; fileRef = F368046E23D8A4000054361A /* Animal_Dinosaurs.png */; };
+		F368047623D8A4000054361A /* Animal_PajoPator.gif in Resources */ = {isa = PBXBuildFile; fileRef = F368046F23D8A4000054361A /* Animal_PajoPator.gif */; };
+		F368047723D8A4000054361A /* Animal_Slon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F368047023D8A4000054361A /* Animal_Slon.jpg */; };
+		F368047923D8A4000054361A /* Animal_Zirafa.png in Resources */ = {isa = PBXBuildFile; fileRef = F368047223D8A4000054361A /* Animal_Zirafa.png */; };
+		F368047E23D8A41D0054361A /* Animal_Tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = F368047A23D8A41C0054361A /* Animal_Tiger.png */; };
+		F368047F23D8A41D0054361A /* Animal_Medo.png in Resources */ = {isa = PBXBuildFile; fileRef = F368047B23D8A41C0054361A /* Animal_Medo.png */; };
+		F368048023D8A41D0054361A /* Animal_Pinquin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F368047C23D8A41C0054361A /* Animal_Pinquin.jpg */; };
+		F368048123D8A41D0054361A /* Animal_Snake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F368047D23D8A41C0054361A /* Animal_Snake.jpg */; };
+		F368048423D8A42A0054361A /* Animal_Panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F368048223D8A42A0054361A /* Animal_Panda.jpg */; };
+		F368048523D8A42A0054361A /* Animal_Cow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F368048323D8A42A0054361A /* Animal_Cow.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +48,18 @@
 		F368046323D8873B0054361A /* Animal_Cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animal_Cat.png; sourceTree = "<group>"; };
 		F368046423D8873B0054361A /* Animal_Monkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal_Monkey.jpg; sourceTree = "<group>"; };
 		F368046A23D891B20054361A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F368046C23D8A4000054361A /* Animal_Maw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animal_Maw.png; sourceTree = "<group>"; };
+		F368046D23D8A4000054361A /* Animal_Kengur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal_Kengur.jpg; sourceTree = "<group>"; };
+		F368046E23D8A4000054361A /* Animal_Dinosaurs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animal_Dinosaurs.png; sourceTree = "<group>"; };
+		F368046F23D8A4000054361A /* Animal_PajoPator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Animal_PajoPator.gif; sourceTree = "<group>"; };
+		F368047023D8A4000054361A /* Animal_Slon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal_Slon.jpg; sourceTree = "<group>"; };
+		F368047223D8A4000054361A /* Animal_Zirafa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animal_Zirafa.png; sourceTree = "<group>"; };
+		F368047A23D8A41C0054361A /* Animal_Tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animal_Tiger.png; sourceTree = "<group>"; };
+		F368047B23D8A41C0054361A /* Animal_Medo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animal_Medo.png; sourceTree = "<group>"; };
+		F368047C23D8A41C0054361A /* Animal_Pinquin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal_Pinquin.jpg; sourceTree = "<group>"; };
+		F368047D23D8A41C0054361A /* Animal_Snake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal_Snake.jpg; sourceTree = "<group>"; };
+		F368048223D8A42A0054361A /* Animal_Panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal_Panda.jpg; sourceTree = "<group>"; };
+		F368048323D8A42A0054361A /* Animal_Cow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal_Cow.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,14 +92,11 @@
 		F368044A23D8856D0054361A /* ImageViewer */ = {
 			isa = PBXGroup;
 			children = (
-				F368044B23D8856D0054361A /* AppDelegate.swift */,
-				F368044D23D8856D0054361A /* SceneDelegate.swift */,
-				F368044F23D8856D0054361A /* ImageViewController.swift */,
-				F368046A23D891B20054361A /* DetailViewController.swift */,
-				F368045123D8856D0054361A /* Main.storyboard */,
-				F368045423D885710054361A /* Assets.xcassets */,
+				F368048623D8C5360054361A /* Supporting Files */,
+				F368048723D8C5470054361A /* Controllers */,
+				F368048823D8C5550054361A /* View */,
 				F368045F23D8873B0054361A /* Content */,
-				F368045623D885710054361A /* LaunchScreen.storyboard */,
+				F368045423D885710054361A /* Assets.xcassets */,
 				F368045923D885710054361A /* Info.plist */,
 			);
 			path = ImageViewer;
@@ -89,8 +110,47 @@
 				F368046223D8873B0054361A /* Animal_Leon.png */,
 				F368046323D8873B0054361A /* Animal_Cat.png */,
 				F368046423D8873B0054361A /* Animal_Monkey.jpg */,
+				F368046D23D8A4000054361A /* Animal_Kengur.jpg */,
+				F368046E23D8A4000054361A /* Animal_Dinosaurs.png */,
+				F368046C23D8A4000054361A /* Animal_Maw.png */,
+				F368047023D8A4000054361A /* Animal_Slon.jpg */,
+				F368047223D8A4000054361A /* Animal_Zirafa.png */,
+				F368046F23D8A4000054361A /* Animal_PajoPator.gif */,
+				F368047C23D8A41C0054361A /* Animal_Pinquin.jpg */,
+				F368047D23D8A41C0054361A /* Animal_Snake.jpg */,
+				F368047A23D8A41C0054361A /* Animal_Tiger.png */,
+				F368047B23D8A41C0054361A /* Animal_Medo.png */,
+				F368048223D8A42A0054361A /* Animal_Panda.jpg */,
+				F368048323D8A42A0054361A /* Animal_Cow.jpg */,
 			);
 			path = Content;
+			sourceTree = "<group>";
+		};
+		F368048623D8C5360054361A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F368044B23D8856D0054361A /* AppDelegate.swift */,
+				F368044D23D8856D0054361A /* SceneDelegate.swift */,
+				F368045623D885710054361A /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F368048723D8C5470054361A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F368044F23D8856D0054361A /* ImageViewController.swift */,
+				F368046A23D891B20054361A /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F368048823D8C5550054361A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F368045123D8856D0054361A /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +211,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F368047723D8A4000054361A /* Animal_Slon.jpg in Resources */,
 				F368046823D8873B0054361A /* Animal_Cat.png in Resources */,
+				F368047323D8A4000054361A /* Animal_Maw.png in Resources */,
+				F368047423D8A4000054361A /* Animal_Kengur.jpg in Resources */,
+				F368047523D8A4000054361A /* Animal_Dinosaurs.png in Resources */,
+				F368048123D8A41D0054361A /* Animal_Snake.jpg in Resources */,
+				F368047623D8A4000054361A /* Animal_PajoPator.gif in Resources */,
+				F368047F23D8A41D0054361A /* Animal_Medo.png in Resources */,
+				F368047923D8A4000054361A /* Animal_Zirafa.png in Resources */,
+				F368048423D8A42A0054361A /* Animal_Panda.jpg in Resources */,
 				F368045823D885710054361A /* LaunchScreen.storyboard in Resources */,
 				F368046723D8873B0054361A /* Animal_Leon.png in Resources */,
+				F368048523D8A42A0054361A /* Animal_Cow.jpg in Resources */,
+				F368047E23D8A41D0054361A /* Animal_Tiger.png in Resources */,
+				F368048023D8A41D0054361A /* Animal_Pinquin.jpg in Resources */,
 				F368045523D885710054361A /* Assets.xcassets in Resources */,
 				F368046923D8873B0054361A /* Animal_Monkey.jpg in Resources */,
 				F368045323D8856D0054361A /* Main.storyboard in Resources */,

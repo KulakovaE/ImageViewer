@@ -23,7 +23,6 @@ class ImageViewController: UITableViewController {
         for item in items {
             if item.hasPrefix("Animal") {
                 images.append(item)
-                
             }
         }
     }
@@ -34,7 +33,9 @@ class ImageViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ImageTableViewCell", for: indexPath)
-        cell.textLabel?.text = images[indexPath.row]
+        if let text = images[indexPath.row] as? String {
+            cell.textLabel?.text = text.replacingOccurrences(of: "Animal_", with: "").replacingOccurrences(of: ".png", with: "").replacingOccurrences(of: ".jpg", with: "")
+        }
         return cell
     }
     
