@@ -15,9 +15,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = selectedImage?.replacingOccurrences(of: "Animal_", with: "").replacingOccurrences(of: ".png", with: "").replacingOccurrences(of: ".jpg", with: "") ?? ""
-        
-        navigationItem.largeTitleDisplayMode = .never
+        configureNavigationController()
         
         if let imageToLoad = selectedImage {
             imageView.image  = UIImage(named: imageToLoad)
@@ -32,5 +30,22 @@ class DetailViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.hidesBarsOnTap = false
+    }
+    
+    @objc func shareTapped() {
+        guard let image = imageView.image?.jpegData(compressionQuality: 0.8) else {
+        print("No image found")
+        return
+    }
+        let vc = UIActivityViewController(activityItems: [image], applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
+    }
+    
+    func configureNavigationController() {
+        title = selectedImage?.replacingOccurrences(of: "Animal_", with: "").replacingOccurrences(of: ".png", with: "").replacingOccurrences(of: ".jpg", with: "") ?? ""
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
+        
+        navigationItem.largeTitleDisplayMode = .never
     }
 }

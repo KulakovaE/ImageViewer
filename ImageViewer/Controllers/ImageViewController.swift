@@ -15,6 +15,8 @@ class ImageViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.title = "Animals"
+        
         
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
@@ -26,6 +28,7 @@ class ImageViewController: UITableViewController {
             }
         }
     }
+    
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return images.count

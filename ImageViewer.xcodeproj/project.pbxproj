@@ -107,7 +107,6 @@
 			children = (
 				F368046023D8873B0054361A /* Animal_All.jpg */,
 				F368046123D8873B0054361A /* Animal_Dog.jpg */,
-				F368046223D8873B0054361A /* Animal_Leon.png */,
 				F368046323D8873B0054361A /* Animal_Cat.png */,
 				F368046423D8873B0054361A /* Animal_Monkey.jpg */,
 				F368046D23D8A4000054361A /* Animal_Kengur.jpg */,
@@ -120,6 +119,7 @@
 				F368047D23D8A41C0054361A /* Animal_Snake.jpg */,
 				F368047A23D8A41C0054361A /* Animal_Tiger.png */,
 				F368047B23D8A41C0054361A /* Animal_Medo.png */,
+				F368046223D8873B0054361A /* Animal_Leon.png */,
 				F368048223D8A42A0054361A /* Animal_Panda.jpg */,
 				F368048323D8A42A0054361A /* Animal_Cow.jpg */,
 			);
