@@ -18,14 +18,20 @@ class ImageViewController: UITableViewController {
         navigationItem.title = "Animals"
         
         
-        let fm = FileManager.default
-        let path = Bundle.main.resourcePath!
-        let items = try! fm.contentsOfDirectory(atPath: path)
-        
-        for item in items {
-            if item.hasPrefix("Animal") {
-                images.append(item)
+        DispatchQueue.global(qos: .default).async {
+            let fm = FileManager.default
+            let path = Bundle.main.resourcePath!
+            let items = try! fm.contentsOfDirectory(atPath: path)
+            
+            for item in items {
+                if item.hasPrefix("Animal") {
+                    self.images.append(item)
+                }
             }
+        }
+        
+        DispatchQueue.main.async {
+             self.tableView.reloadData()
         }
     }
     
